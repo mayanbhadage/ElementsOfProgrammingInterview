@@ -20,6 +20,13 @@ def even_odd(array):
 # without using additional data structure
 
 def even_odd_wo(array):
+    '''
+    here we have to pointer to the array(front and back)
+    we start from the start of the array
+    if the element at the start of the array is even
+    we move the pointer forward
+    if the element is odd we swap elements from two pointer in the array
+    '''
     start , end = 0 , len(array)-1
 
     while(start < end):
