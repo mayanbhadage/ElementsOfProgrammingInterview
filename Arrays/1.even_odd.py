@@ -3,8 +3,12 @@ Reorder entries in an array so that even entries appear first
 without using any additional data structure
 '''
 
-#with additional array
 
+#with additional array
+"""
+Time : O(N)
+Space: O(N)
+"""
 def even_odd(array):
     even = []
     odd = []
@@ -18,6 +22,11 @@ def even_odd(array):
     return even
 
 # without using additional data structure
+
+"""
+Time : O(N)
+Space: O(1)
+"""
 
 def even_odd_wo(array):
     '''
